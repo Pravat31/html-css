@@ -1,14 +1,18 @@
 *{
   box-sizing: border-box;
 }
+p{
+    margin:25px 5px 5px 5px;
+}
 
   section{
   border:1px solid black;
 margin-right:2px;
 margin-bottom: 5px;
+margin-top:25px;
 padding: 10px;
 background-color: antiquewhite;
-font-family:inherit;
+font-family:inherit; position:relative;
     
 }
 h1{
@@ -16,12 +20,13 @@ h1{
    
 }
 h2{
-    
-    position:relative;
-    left:80%;
-     width:20%;
+  position:absolute;
+    width:100px;
+    text-align: center;
+   top:-20px;
+    right:0px;
    border:3px solid black;
- 
+    
 }
 .content{
 background-color: red;
